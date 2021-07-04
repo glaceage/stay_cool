@@ -78,8 +78,9 @@ if st.sidebar.checkbox('套期保值/商情分析的新世界'):
         2.  应用场景2：利用训练好的模型，预测大宗物料价格
         3.  应用场景3：建立明晰的分析系统
         ''')
-st.markdown('# stay cool,stay hungry,stay foolish.')
-
+st.markdown('# stay cool')
+st.markdown('# stay hungry')
+st.markdown('# stay foolish')
 
 
 
