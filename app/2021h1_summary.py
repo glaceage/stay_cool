@@ -60,7 +60,7 @@ if st.sidebar.checkbox('套期保值/商情分析的新世界'):
     dateparse = lambda x: pd.datetime.strptime(x, '%Y-%m-%d')
     @st.cache(allow_output_mutation=True)
     def get_data():
-        fileloc='data\pv_forcast.csv'
+        fileloc='pv_forcast.csv'
         return pd.read_csv(fileloc,parse_dates=['index'],index_col=['index'],infer_datetime_format=True)
         
     df=get_data()
